@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>satellitesinspace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="map" class="map">
+        <div id="about" class="about">
+            <h1 class="about_head">
+                System of Sustainable Satellites
+            </h1>
+            <p class="about_detail1">
+                This Website is to raise people's awareness of creating a system of sustainable satellites above us, with long time horizons.
+            </p>
+            <p class="about_detail2">                
+                Of the more than 26,000 debris objects NASA monitors, there are more than 4,000 dead satellites and rocket stages which could destroy working satellites and impact on our communications on Earth.
+
+                <br>Then there are up to 900,000 fragments of space scrap up to 10cm big which are too small to monitor and 128 million tiny pieces up to 1cm big.
+                
+                <br>But even the smallest fragments circling Earth at 40,000km an hour could cause catastrophic damage to an active satellite, according to the European Space Agency’s Space Debris Office.
+            </p>
+        </div>
+        <img src="assets/stars_space_darkness_night_black_sky_background_hd_space-2560x1440.jpeg" alt="By DEWESoft"
+            class="map-png" />
+            <div id="JWST">
+                <p class="Intro5">── 1,500,000 KM | James Webb Space Telescope</p>
+                <img src="assets/JWST_spacecraft_model_3.png" alt="JWST" class="JWST" />
+            </div>
+            <div id="Moon">
+                <p class="Intro4">── 384,400 KM | The Moon</p>
+                <img src="assets/The_First_Quarter_Moon.png" alt="Moon" class="Moon" />
+            </div>
+            <div id="FY">
+                <p class="IntroGEO">── 35,800 KM | Geostationary Orbit</p>
+                <p class="Intro6">── 35,786 KM | FengYun (FY-4A)</p>
+                <img src="assets/fy-4a__2.jpeg" alt="FY" class="FY" />
+                <img src="assets/space-debris-png-5-300x200.png" alt="junk2" class="junk2" />
+                <p class="describe4">New observations show we’re not tracking a majority of debris in higher orbits.<br>Debris in GEO accumulates over time, resulting from shedding or collision. Many old boosters used to place satellites in orbit simply break up over time. And unlike LEO, satellites in GEO are too far away to come back to Earth and burn up in its atmosphere.<br>-SKY&TELESCOPE</p>
+            </div>
+            <div id="Galileo">
+                <p class="Intro3">── 23,222 KM | Galileo Satellite Navigation System</p>
+                <img src="assets/galileo_hr.png" alt="Galileo" class="Galileo" />
+            </div>
+            <div id="Starlink">
+                <p class="IntroMEO">── 16,500 KM | Medium Earth Orbit</p>
+                <img src="assets/debris2.png" alt="debris2" class="debris2" />
+                <p class="describe3">On average over the last two decades, 12 accidental ‘fragmentations’ have occured in space every year – and this trend is unfortunately increasing. Fragmentation events describe moments in which debris is created due to collisions, explosions, electrical problems and even just the detachment of objects due to the harsh conditions in space.<br>-European Space Agency</p>
+                <p class="IntroLEO">── 2,000 KM | Low Earth Orbit</p>
+                <p class="Intro2">── 550 KM | Starlink Satellites</p>
+                <img src="assets/032820_CC_satellites_inline-4_680-626x450.png" alt="Starlink" class="Starlink" />
+                <img src="assets/space-debris.png" alt="junk1" class="junk1" />
+                <p class="describe2">NASA estimates that there would be a Starlink in every single asteroid survey image taken for planetary defense against hazardous asteroid impacts, decreasing asteroid survey effectiveness by rendering portions of images unusable,” the agency writes, saying the satellites would threaten “our planet’s ability to detect and possibly redirect a potentially catastrophic impact.<br>-NASA</p>
+            </div>
+            <div id="LEO">
+                <p class="Intro1" id="ISS">── 400 KM | International Space Station</p>
+                <img src="assets/ISS_spacecraft_model_1.png" alt="ISS" class="ISS" />
+                <img src="assets/Galaxy_Map_-_Wreckage.webp" alt="debris1" class="debris1" />
+                <p class="describe1">For almost 60 years, we’ve launched rockets and spacecraft into Earth’s orbit, but now thousands of objects from tiny screws and bolts, to dead satellites encircle the Earth. Transforming the space above us into a junkyard. The International Space Station(ISS) is in the crosshairs. The ISS has already been hit by little bits of debris on a number of occasions and there are no guarantees that other substantial things might not hit it again in the future.<br>-Discovery</p>
+            </div>
+    </div>
+    <div class="search_container" id="search_container">
+        <h2 class="satellite_search">Enter Satellite Name :</h2>
+        <div class="searchbar">
+            <input id="satellite_name" placeholder="E.g. Starlink-2291/Beidou DW 26"></input>
+            <button id="satellite_button"><img src="assets/search.png" alt="Search"></button>
+        </div>
+        <div class="satellite_info">
+            <div class="display-inline">
+                <h3 class="no_result" id="s_no_result"></h3>
+                <p class="search_tip" id="s_tip"></p>
+                <p class="satellite_name" id="s_name"></p>
+                <p class="satellite_country" id="s_country"></p>
+                <p class="satellite_owner" id="s_owner"></p>
+                <p class="satellite_users" id="s_users"></p>
+                <p class="satellite_purpose" id="s_purpose"></p>
+                <p class="satellite_date" id="s_date"></p>
+                <p class="satellite_orbit" id="s_orbit"></p>
+                <p class="satellite_typeorbit" id="s_typeorbit"></p>
+                <p class="satellite_longitudegeo" id="s_longitudegeo"></p>
+                <p class="satellite_perigee" id="s_perigee"></p>
+                <p class="satellite_apogee" id="s_apogee"></p>
+                <p class="satellite_eccentricity" id="s_eccentricity"></p>
+                <p class="satellite_inclination" id="s_inclination"></p>
+                <p class="satellite_period" id="s_period"></p>
+                <p class="satellite_lifetime" id="s_lifetime"></p>
+                <p class="satellite_contractor" id="s_contractor"></p>
+                <p class="satellite_source" id="s_source"></p>
+                <div class="nasa_note1">Thousands of manmade objects—95 % of them “space junk”—occupy low Earth orbit<br>-NASA</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bg" id="live">
+        <iframe class="bg-video"
+            src="https://www.youtube.com/embed/86YLFOog4GM?controls=0&vq=hd1080&modestbranding=1&showinfo=0rel=0&mute=1&autoplay=1&fs=0&playlist=86YLFOog4GM"
+            frameborder="0" allow="autoplay" allowfullscreen></iframe>
+        <nav id="nav">
+            <ul>
+                <li><a href="#live">Live</a></li>
+                <li><a href="#search_container">Search</a></li>
+                <li><a href="#ISS">Trip</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <h1>5,465</h1>
+            <p class="cover-para">satellites currently orbiting Earth,<br> including their country of origin, purpose,
+                and other operational details.</p>
+            <a href="https://www.ucsusa.org/resources/satellite-database">
+                <button class="btn-1" type="button">View source</button>
+            </a>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+    
+</body>
+
+</html>
