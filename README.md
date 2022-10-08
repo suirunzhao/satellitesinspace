@@ -47,6 +47,8 @@ DEWESoft https://dewesoft.com/daq/every-satellite-orbiting-earth-and-who-owns-th
 
 UCS Satellite Database https://www.ucsusa.org/resources/satellite-database#page-subtitle
 
+Data: https://www.n2yo.com/satellites/
+
 howmanypeopleareinspacerightnow https://www.howmanypeopleareinspacerightnow.com/
 
 Space Guide: [https://abraiz01.github.io/Connections-Lab/Week3/Project_1/index.html](https://abraiz01.github.io/Connections-Lab/Week3/Project_1/index.html)
