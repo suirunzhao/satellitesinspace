@@ -11,7 +11,7 @@
 
 //reverse scroll
 function scrollBottom() {window.scrollTo(0, 99999);}
-if (document.addEventListener) document.addEventListener("load", scrollBottom, false)
+if (document.addEventListener) document.addEventListener("load", scrollBottom, true)
 else if (window.attachEvent) window.attachEvent("onload", scrollBottom);
 
 
